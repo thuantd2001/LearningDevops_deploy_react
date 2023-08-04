@@ -1,0 +1,120 @@
+.homeWrap {
+  ul {
+    text-align: center;
+    padding: 0;
+
+    box-sizing: border-box;
+  }
+
+  header {
+    background-image: linear-gradient(to right, var(--backgroundnav-color1), var(--backgroundnav-color2));
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+  }
+
+  header .overlay {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    color:  rgb(233, 233, 230);
+    text-shadow: 1px 1px 5px #333;
+    background-image: linear-gradient(to right bottom, var(--button-color1), var(--button-color2));
+  }
+
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  h3,
+  p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+
+  .img-box {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+  }
+
+  .overlay {
+    padding-top: 20px;
+  }
+
+  a {
+    font-weight: 600;
+    margin: 10px;
+    color: var(--text-color);
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a:visited {
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: rgb(200, 200, 200);
+  }
+
+  /* selected link */
+  a:active {
+    text-decoration: none;
+  }
+  .history-board {
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 0px 0px 15px var(--shadow-boxchild);
+    border: 5px solid var(--shadow-boxchild);
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #b2b2b2;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(126, 126, 126);
+
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--button-hover1);
+  }
+  @media screen and (max-width: 700px) {
+	h1{
+		font-size: 40px;
+	}
+  }
+}

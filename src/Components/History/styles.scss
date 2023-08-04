@@ -1,0 +1,22 @@
+.HistoryWrap {
+  width: 100px;
+  justify-content: center;
+  color: var(--text-color);
+  font-family: 'Dancing Script', cursive;
+ 
+
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+
+  text-align: center;
+  
+}
+@media screen and (max-width: 700px) {
+  .HistoryWrap {
+    width: 50px;
+    margin: 2px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}

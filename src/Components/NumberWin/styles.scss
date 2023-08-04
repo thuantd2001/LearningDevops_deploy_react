@@ -1,0 +1,50 @@
+.winWrap {
+    text-align: right;
+    height: 150px;
+    color: var(--text-color);
+    position: relative;
+    div{
+       
+        margin-top: 20px;
+        padding: 2px 20px 2px 0px;
+    }
+    .count_x{
+        right: 0px;
+        width: 200px;
+        position: absolute;
+        border: 2px solid  rgb(255, 178, 130);
+        border-top-left-radius: 105px;
+        box-shadow: 2px -5px  rgb(243, 207, 184) ;
+  
+    }
+    .count_y{
+        right: 0px;
+        width: 200px;
+        position: absolute;
+       top :50px;
+        
+       border: 2px solid  rgb(86, 215, 229);
+       border-bottom-left-radius: 105px;
+       box-shadow: 2px 5px  rgb(123, 231, 244)     ;
+    }
+    @media screen and (max-width: 700px) {
+		font-size: 10px;
+        height: 50px;
+        div{
+       
+            margin-top: 10px;
+            padding: 1px 15px 1px 0px;
+        }
+      
+        .count_y{
+            right: 0px;
+            width: 200px;
+            position: absolute;
+            top :20px;
+            
+            background-image: linear-gradient(to right, rgba(88, 70, 70, 0),  rgb(144, 244, 255));
+        }
+	}
+
+}
+

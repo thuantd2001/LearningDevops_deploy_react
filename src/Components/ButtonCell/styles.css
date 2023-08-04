@@ -1,0 +1,118 @@
+.buttonWrap{
+    
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-image: linear-gradient(to right bottom, var(--button-color1), var(--button-color2));
+    box-shadow: 2px 1px 2px var(--shadow-color);
+    cursor: pointer;
+    
+ 
+    text-align: center;
+
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.buttonWrap:hover{
+  background-image: linear-gradient(to right bottom, 	var(--button-hover1),var(--button-hover2));
+}
+
+.buttonWrapClick{
+    font-family: 'Dancing Script', cursive;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color:  var(--button-click);
+    
+    cursor: pointer;
+    
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.button-box{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+
+/* CSS */
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px var(--button-color1);
+  background-image: linear-gradient(45deg,  var(--button-color1), var(--button-hover1) 51%, var(--button-hover2 )  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.TurnX{
+  color: rgb(255, 178, 130);
+}
+.TurnY{
+  color: rgb(172, 243, 251);
+}
+
+@media screen and (max-width:700px) {
+  .buttonWrap {
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    font-size: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .buttonWrapClick {
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    font-size: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .button-87{
+    margin: 5px;
+    padding: 7px 10px;
+    font-size: 10px;
+  }
+  @media screen and (max-width: 400px) {
+    .buttonWrap {
+      width: 15px;
+      height: 15px;
+      margin: 2px;
+      font-size: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .buttonWrapClick {
+      width: 15px;
+      height: 15px;
+      margin: 2px;
+      font-size: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+}
